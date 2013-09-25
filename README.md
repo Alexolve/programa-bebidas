@@ -143,15 +143,14 @@ inicio
                  total<--x*1300
                  fin (si)
                  fin (si)
-                  si(compra>5)entonces
-                  total=compra*.10
-                  pago=compra-total
+                  si(x>5)entonces
+                  desc<--total*.10
+                  pago<--total-desc
  hasta (opc=5)
   fin (caso)
             escribe ("articulos vendidos:", x)
             escribe ("total a pagar:", pago)
-            
-  
+termina 
   
   
   
